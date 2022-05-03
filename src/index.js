@@ -25,8 +25,8 @@ function SimpleCFrame({ breadcrumb = [{ text: 'Website', link: '#' }], children 
 			</main>
 
 			<footer>
-				<div className='container py-3 text-end'>
-					<p>All rights reserved. &copy; 2022</p>
+				<div className='container py-3'>
+					<p>FOOTER</p>
 				</div>
 			</footer>
 		</div>
