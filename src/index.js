@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 import './styles/index.scss';
 
-import SimpleBreadcrumb from 'simple-breadcrumb';
+import SimpleReactBreadcrumb from 'simple-react-breadcrumb';
 
-function SimpleCFrame({ breadcrumb = [{ text: 'Website', link: '#' }], children }) {
+function SimpleReactCFrame({ breadcrumb = [{ text: 'Website', link: '#' }], children }) {
 	return (
-		<div className='simple-c-frame'>
+		<div className='simple-react-c-frame'>
 			<header>
 				<div className='container-fluid pt-3 px-3'>
 					<h1 className='mb-3'>
@@ -15,7 +15,7 @@ function SimpleCFrame({ breadcrumb = [{ text: 'Website', link: '#' }], children 
 					</h1>
 
 				</div>
-				<SimpleBreadcrumb crumbs={breadcrumb} />
+				<SimpleReactBreadcrumb crumbs={breadcrumb} />
 			</header>
 
 			<main>
@@ -33,9 +33,9 @@ function SimpleCFrame({ breadcrumb = [{ text: 'Website', link: '#' }], children 
 	);
 }
 
-SimpleCFrame.propTypes = {
+SimpleReactCFrame.propTypes = {
 	breadcrumb: PropTypes.array,
 	children: PropTypes.node
 };
 
-export default SimpleCFrame;
+export default SimpleReactCFrame;

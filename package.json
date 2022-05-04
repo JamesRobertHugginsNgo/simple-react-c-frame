@@ -1,5 +1,5 @@
 {
-  "name": "simple-c-frame",
+  "name": "simple-react-c-frame",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesRobertHugginsNgo/simple-c-frame.git"
+    "url": "git+https://github.com/JamesRobertHugginsNgo/simple-react-c-frame.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JamesRobertHugginsNgo/simple-c-frame/issues"
+    "url": "https://github.com/JamesRobertHugginsNgo/simple-react-c-frame/issues"
   },
-  "homepage": "https://github.com/JamesRobertHugginsNgo/simple-c-frame#readme",
+  "homepage": "https://github.com/JamesRobertHugginsNgo/simple-react-c-frame#readme",
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/eslint-parser": "^7.17.0",
@@ -46,6 +46,6 @@
     "react-dom": "^18.1.0",
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
-    "simple-breadcrumb": "github:JamesRobertHugginsNgo/simple-breadcrumb#1.0.0"
+    "simple-react-breadcrumb": "github:JamesRobertHugginsNgo/simple-react-breadcrumb"
   }
 }

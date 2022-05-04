@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDomClient from 'react-dom/client';
 
-import SimpleCFrame from '../../src/index.js';
+import SimpleReactCFrame from '../../src/index.js';
 
 ReactDomClient
 	.createRoot(document.getElementById('app'))
 	.render(
-		<SimpleCFrame
+		<SimpleReactCFrame
 			breadcrumb={[
 				{ text: 'ROOT', link: '#' },
 				{ text: 'APP NAME', link: '#' },
@@ -28,5 +28,5 @@ ReactDomClient
 					<p>Vestibulum faucibus ultricies vulputate. Etiam mollis eleifend orci. Nam placerat, nisl eget euismod mollis, nulla dui iaculis massa, ut ullamcorper nunc ex vitae ex. Proin sed justo lectus. Ut convallis, leo eget porta dapibus, lacus metus mollis metus, vitae rhoncus est leo non enim. Maecenas fringilla arcu ultricies sollicitudin accumsan. Vivamus varius elementum egestas. Nullam urna nulla, hendrerit vel lacus id, tincidunt molestie sem. Cras porttitor auctor velit eu suscipit. Nullam orci eros, sagittis id rhoncus sit amet, sagittis sit amet dui. Nullam in nisl sit amet velit imperdiet convallis a in mi. Curabitur malesuada ex ut vehicula aliquet.</p>
 				</div>
 			</div>
-		</SimpleCFrame>
+		</SimpleReactCFrame>
 	);
